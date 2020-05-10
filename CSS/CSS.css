@@ -2,10 +2,10 @@
 
 /* Link colors and visted colors*/
 a:visited {
-  color: rgb(0, 247, 255);
+  color: rgba(124, 124, 124, 0.733);
 }
 a:link {
-  color: rgb(33, 196, 46);
+  color: rgba(27, 51, 185, 0.76);
 }
 
 /* text stuff*/
@@ -25,10 +25,30 @@ p {
 
 }
 
+/* Background Image for Home*/
+#homeBody  {
+  background-image: url("../images/Home_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+/* Background Image for Adobe Spark page*/
+#adobeSprkBody  {
+  background-image: url("../images/purple_desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
 /* Sets a new border for content */
-body {
-  margin-left: 15%;
-  margin-right: 15%;
+.page-wrapper {
+  margin-left: 30%;
+  margin-right: 30%;
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
@@ -37,3 +57,6 @@ body {
 }
 
 /* */
+
+
+
