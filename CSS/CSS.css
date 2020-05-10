@@ -106,9 +106,9 @@ p {
 }
 
 
-/* Background Image*/
+/* Background Image for Contact*/
 #id  {
-  background-image: url("../images/computer_and_film.jpg");
+  background-image: url("../images");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
