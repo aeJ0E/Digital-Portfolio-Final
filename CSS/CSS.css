@@ -13,7 +13,7 @@ p {
   background-color: lightcyan;
   font: arial;
   border-width:5px;  
-  border-style:outset;
+  border-style:inset;
 }
 
 /* Background Image*/
