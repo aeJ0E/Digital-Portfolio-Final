@@ -1,0 +1,39 @@
+/*  USE FLEX BOX!! LOOK IT UP FIRST!*/
+
+/* Link colors and visted colors*/
+a:visited {
+  color: rgb(0, 247, 255);
+}
+a:link {
+  color: rgb(33, 196, 46);
+}
+
+/* text stuff*/
+p {
+  background-color: lightcyan;
+  font: arial;
+  border-width:5px;  
+  border-style:outset;
+}
+
+/* Background Image*/
+#id  {
+  background-image: url("../images/computer_and_film.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+/* Sets a new border for content */
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(129, 129, 129, 0.712);
+  
+}
+
+/* */
