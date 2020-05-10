@@ -16,15 +16,6 @@ p {
   border-style:inset;
 }
 
-/* Background Image*/
-#id  {
-  background-image: url("../images/computer_and_film.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-}
-
 /* Background Image for Home*/
 #homeBody  {
   background-image: url("../images/Home_image.jpg");
@@ -44,6 +35,85 @@ p {
 
 }
 
+
+/* Background Image for Computing Innovation*/
+#computingInoBody  {
+  background-image: url("../images/flowers_in_cup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+/* Background Image for Multiable Choice Story*/
+#multiChoiceStoryBody  {
+  background-image: url("../images/hand_holds_flowers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+/* Background Image for Zen Garden Challenge*/
+#zenGardenBody  {
+  background-image: url("../images/purple_lightning.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+/* Background Image Tech innocation for humanity*/
+#AntiAnxiBody  {
+  background-image: url("../images/purple_sky2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+/* Background Image for Career of choice Essay*/
+#careerEssayBody {
+  background-image: url("../images/purple_rose.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+/* Background Image for Mock interview */
+#mockInterviewBody  {
+  background-image: url("../images/closeup_water_on_purple_flower.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+/* Background Image for About Me*/
+#aboutMeBody  {
+  background-image: url("../images/flowers_right_side.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+/* Background Image*/
+#id  {
+  background-image: url("../images/computer_and_film.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
 
 /* Sets a new border for content */
 .page-wrapper {
