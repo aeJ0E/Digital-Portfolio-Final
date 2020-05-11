@@ -15,6 +15,37 @@ p {
   border-width:5px;  
   border-style:inset;
 }
+/* fixes the footer to the bottom of the page */
+footer  {
+  bottom: 0;
+  width: 100%;
+}
+/* Centers the project title */
+
+.projectTitle {
+  text-align: center;
+}
+
+/* Menu CSS*/
+.topMenu  {
+  width: 100%;
+  background-color: lightcoral;
+}
+
+
+/* Sets a new border for content */
+.page-wrapper {
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgba(129, 129, 129, 0.712);
+  
+}
+
+/*  BACKGROUND IMAGES BELOW!!  */
 
 /* Background Image for Home*/
 #homeBody  {
@@ -115,16 +146,6 @@ p {
 
 }
 
-/* Sets a new border for content */
-.page-wrapper {
-  margin-left: 30%;
-  margin-right: 30%;
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: row;
-  background-color: rgba(129, 129, 129, 0.712);
-  
-}
 
 /* */
 
