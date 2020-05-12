@@ -2,7 +2,7 @@
 
 /* Link colors and visted colors*/
 a:visited {
-  color: rgba(124, 124, 124, 0.733);
+  color: rgba(40, 233, 56, 0.733);
 }
 a:link {
   color: rgba(27, 51, 185, 0.76);
@@ -15,13 +15,24 @@ p {
   border-width:5px;  
   border-style:inset;
 }
+
+/* fixes the head to top of the page */
+header  {
+  top: 0;
+  width: 100%;
+}
+
 /* fixes the footer to the bottom of the page */
 footer  {
   bottom: 0;
   width: 100%;
 }
-/* Centers the project title */
 
+#homeBody main {
+  width: 100%;
+}
+
+/* Centers the project title */
 .projectTitle {
   text-align: center;
 }
