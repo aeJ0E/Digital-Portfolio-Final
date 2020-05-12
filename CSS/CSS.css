@@ -10,10 +10,14 @@ a:link {
 
 /* text stuff*/
 p {
-  background-color: lightcyan;
-  font: arial;
+  
   border-width:5px;  
   border-style:inset;
+}
+
+@font-face {
+  font-family: ;
+  src: url(sansation_light.woff);
 }
 
 /* fixes the head to top of the page */
