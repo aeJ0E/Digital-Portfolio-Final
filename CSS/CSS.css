@@ -9,15 +9,21 @@ a:link {
 }
 
 /* text stuff*/
-p {
-  
+p { 
+  font-family: garamond;
   border-width:5px;  
   border-style:inset;
+  border-color: rgba(129, 129, 129, 0.001) rgb(255, 255, 255) rgb(255, 255, 255) rgba(129, 129, 129, 0.001) /* 1 = top, 2 = right, 3 = bottom and 4 = left */  
 }
 
-@font-face {
-  font-family: ;
-  src: url(sansation_light.woff);
+h1 {
+  font-family: serif;
+}
+
+/* Directly affect the text on the About me Pargraphs */
+.aboutMeP1  {
+  border-style:inset;
+  border-width:5px;
 }
 
 /* fixes the head to top of the page */
@@ -59,6 +65,11 @@ footer  {
   background-color: rgba(129, 129, 129, 0.712);
   
 }
+/* Extends the page wrapper for my about me */
+#aboutMePageWrap  {
+  height: 900px;
+}
+
 
 /*  BACKGROUND IMAGES BELOW!!  */
 
@@ -148,6 +159,7 @@ footer  {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 900px;
 
 }
 
