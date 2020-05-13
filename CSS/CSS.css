@@ -61,6 +61,7 @@ footer  {
 
 /* Sets a new border for content */
 .page-wrapper {
+  box-sizing: border-box;
   margin-left: 15%;
   margin-right: 15%;
   height: 750px;
@@ -102,6 +103,10 @@ footer  {
   margin-right: 5%;
 }
 
+.mancalaProjectExampleImage {
+  width: 100%;
+  height: auto;
+}
 
 /*  BACKGROUND IMAGES BELOW!!  */
 
@@ -205,6 +210,15 @@ footer  {
 
 }
 
+
+/* Background Image for Contact*/
+#mancalaBody  {
+  background-image: url("../images/purple_light_thing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
 
 /* */
 
