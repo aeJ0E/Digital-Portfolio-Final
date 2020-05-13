@@ -1,41 +1,41 @@
-/*  USE FLEX BOX!! LOOK IT UP FIRST!*/
 
 /* Link colors and visted colors*/
 a:visited {
+  font-family: garamond;
   color: rgba(40, 233, 56, 0.733);
 }
 a:link {
+  font-family: garamond;
   color: rgba(27, 51, 185, 0.76);
 }
 
 /* text stuff*/
 p { 
   font-family: garamond;
+  font-size: 17px;
   border-width:5px;  
   border-style:inset;
   border-color: rgba(129, 129, 129, 0.001) rgb(255, 255, 255) rgb(255, 255, 255) rgba(129, 129, 129, 0.001) /* 1 = top, 2 = right, 3 = bottom and 4 = left */  
+}
+
+.projectExampleText {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 h1 {
   font-family: serif;
 }
 
-/* Directly affect the text on the About me Pargraphs */
-.aboutMeP1  {
-  border-style:inset;
-  border-width:5px;
-}
-
 /* fixes the head to top of the page */
 header  {
   top: 0;
-  width: 100%;
 }
 
 /* fixes the footer to the bottom of the page */
 footer  {
   bottom: 0;
-  width: 100%;
+  min-width: 100%;
 }
 
 #homeBody main {
@@ -49,8 +49,13 @@ footer  {
 
 /* Menu CSS*/
 .topMenu  {
-  width: 100%;
-  background-color: lightcoral;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  order: -1;
+  min-width: 100%;
+  /* position: fixed; */
 }
 
 
@@ -58,7 +63,7 @@ footer  {
 .page-wrapper {
   margin-left: 15%;
   margin-right: 15%;
-  height: 700px;
+  height: 750px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -67,7 +72,34 @@ footer  {
 }
 /* Extends the page wrapper for my about me */
 #aboutMePageWrap  {
-  height: 900px;
+  height: 1100px;
+}
+
+#careerEssayTitle {
+  width: 100%;
+}
+
+
+/* resized the example doc */
+.careerEssayDoc {
+  width: 789.112px;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* resized the example doc */
+.mockInterviewDoc {
+  width: 789.112px;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* resized the example doc */
+.antiAnxietyDoc {
+  width: 789.112px;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
@@ -159,7 +191,7 @@ footer  {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 900px;
+  height: 1100px;
 
 }
 
