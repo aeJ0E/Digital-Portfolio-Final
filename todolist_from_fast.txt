@@ -1,2 +1,6 @@
 UL put on flex box
+
+DONE:	
 linespacing: x;
+page-wrapper: 70vw;
+margin: 0 auto;

@@ -60,6 +60,11 @@ footer  {
   /* add FLEX BOX */
 }
 
+/* Sets no margins around body */
+body  {
+  margin: 0 auto;
+}
+
 
 /* Sets a new border for content */
 .page-wrapper {
@@ -84,24 +89,21 @@ footer  {
 
 /* resized the example doc */
 .careerEssayDoc {
-  width: auto;
-  height: auto;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 65vw;
+  height: 60vw;
+  margin-left: 2.5vw;
 }
 /* resized the example doc */
 .mockInterviewDoc {
-  width: auto;
-  height: auto;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 65vw;
+  height: 60vw;
+  margin-left: 2.5vw;
 }
 /* resized the example doc */
 .antiAnxietyDoc {
-  width: auto;
-  height: auto;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 65vw;
+  height: 60vw;
+  margin-left: 2.5vw;
 }
 
 .mancalaProjectExampleImage {
