@@ -153,6 +153,16 @@ body  {
   height: auto;
 }
 
+#resumeDownloadButton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+  width: auto;
+  margin: 0 auto;
+}
+
 
 /*  BACKGROUND IMAGES BELOW!!  */
 
@@ -246,6 +256,17 @@ body  {
 }
 
 
+
+
+/* Background Image for Contact*/
+#mancalaBody  {
+  background-image: url("../images/purple_light_thing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
 /* Background Image for Contact*/
 #id  {
   background-image: url("../images");
@@ -256,15 +277,14 @@ body  {
 }
 
 
-/* Background Image for Contact*/
-#mancalaBody  {
-  background-image: url("../images/purple_light_thing.jpg");
+/* Background Image for resume*/
+#resumeBody  {
+  background-image: url("../images/purple_book.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
 }
-
 /* */
 
 
