@@ -24,6 +24,15 @@ p {
   margin-right: 5%;
 }
 
+/* Spaces out text on Welcome page to make it cover more of the webpage*/
+.homeWelcome p {
+  margin-top: 10%;
+  width: auto;
+  text-align: center;
+  border-color: rgba(129, 129, 129, 0.001) rgb(129, 129, 129, 0.001) rgb(255, 255, 255) rgba(129, 129, 129, 0.001) /* 1 = top, 2 = right, 3 = bottom and 4 = left */  
+}
+
+/* Sets the heading of each page*/
 h1 {
   width: 100%;
   font-family: serif;
@@ -32,7 +41,43 @@ h1 {
 /* fixes the head to top of the page */
 header  {
   top: 0;
+  width: 100%;
 }
+/* For the TOP menu */
+.topMenu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.dropDown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropDownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropDown:hover .dropDownContent {display: block;}
+
+
+
+
+
 
 /* fixes the footer to the bottom of the page */
 footer  {
@@ -49,16 +94,6 @@ footer  {
   text-align: center;
 }
 
-/* Menu CSS*/
-.topMenu  {
-  margin-top: 2%;
-  margin-left: 25%;
-  margin-right: 25%;
-  text-align: center;
-  order: -1;
-  min-width: 100%;
-  /* add FLEX BOX */
-}
 
 /* Sets no margins around body */
 body  {
@@ -118,6 +153,7 @@ body  {
   height: auto;
 }
 
+
 /*  BACKGROUND IMAGES BELOW!!  */
 
 /* Background Image for Home*/
@@ -126,6 +162,7 @@ body  {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0 auto;
 
 }
 
