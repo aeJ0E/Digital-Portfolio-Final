@@ -106,6 +106,13 @@ body  {
   margin-left: 2.5vw;
 }
 
+.adobeSparkVid  {
+  width: 70vw;
+  height: 60vw;
+  border-width: 0;
+}
+
+
 .mancalaProjectExampleImage {
   width: 100%;
   height: auto;
