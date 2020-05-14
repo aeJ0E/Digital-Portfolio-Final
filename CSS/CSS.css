@@ -13,6 +13,7 @@ a:link {
 p { 
   font-family: garamond;
   font-size: 17px;
+  line-height: 1.5;
   border-width:5px;  
   border-style:inset;
   border-color: rgba(129, 129, 129, 0.001) rgb(255, 255, 255) rgb(255, 255, 255) rgba(129, 129, 129, 0.001) /* 1 = top, 2 = right, 3 = bottom and 4 = left */  
@@ -56,50 +57,49 @@ footer  {
   text-align: center;
   order: -1;
   min-width: 100%;
-  /* position: fixed; */
+  /* add FLEX BOX */
 }
 
 
 /* Sets a new border for content */
 .page-wrapper {
-  box-sizing: border-box;
-  margin-left: 15%;
-  margin-right: 15%;
-  height: 750px;
+  width: 70vw;
+	margin: 0 auto;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   background-color: rgba(129, 129, 129, 0.712);
   
 }
-/* Extends the page wrapper for my about me */
-#aboutMePageWrap  {
-  height: 1100px;
-}
 
 #careerEssayTitle {
   width: 100%;
 }
 
+.imageExample {
+  max-width: 100%
+}
+
 
 /* resized the example doc */
 .careerEssayDoc {
-  width: 789.112px;
-  height: 500px;
+  width: auto;
+  height: auto;
   margin-left: 5%;
   margin-right: 5%;
 }
 /* resized the example doc */
 .mockInterviewDoc {
-  width: 789.112px;
-  height: 500px;
+  width: auto;
+  height: auto;
   margin-left: 5%;
   margin-right: 5%;
 }
 /* resized the example doc */
 .antiAnxietyDoc {
-  width: 789.112px;
-  height: 500px;
+  width: auto;
+  height: auto;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -197,8 +197,6 @@ footer  {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 1100px;
-
 }
 
 

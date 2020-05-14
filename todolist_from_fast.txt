@@ -1,5 +1,2 @@
 UL put on flex box
-img max-width: 100%
-page-wrapper: 70vw;
-	margin: 0 auto;
 linespacing: x;
