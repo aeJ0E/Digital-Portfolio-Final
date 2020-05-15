@@ -173,7 +173,11 @@ body  {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0 auto;
+  height: 45vw;
 
+}
+.homePageWrap {
+  height: 100vw;
 }
 
 
