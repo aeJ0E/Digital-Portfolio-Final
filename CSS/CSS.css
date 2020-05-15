@@ -76,9 +76,6 @@ header  {
 
 
 
-
-
-
 /* fixes the footer to the bottom of the page */
 footer  {
   bottom: 0;
@@ -162,6 +159,15 @@ body  {
   width: auto;
   margin: 0 auto;
 }
+
+
+/*  MEDIA QUERIES!!  */
+@media (max-width: 600px) {
+  p {font-size: 20px;}
+}
+
+
+
 
 
 /*  BACKGROUND IMAGES BELOW!!  */
