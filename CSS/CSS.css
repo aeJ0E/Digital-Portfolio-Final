@@ -37,6 +37,11 @@ h1 {
   width: 100%;
   font-family: serif;
 }
+h2 {
+  width: 100%;
+  font-family: serif;
+  text-align: center;
+}
 
 /* fixes the head to top of the page */
 header  {
